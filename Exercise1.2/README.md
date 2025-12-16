@@ -50,10 +50,10 @@ then added them to the outer list I created earlier
 ## 🧾 4. Printing Ingredients for Each Recipe
 
 I used a simple loop to print the ingredients of each recipe:
-
+```
 for recipe in all_recipes:
     print(recipe["ingredients"])
-
+```
 
 ## 🧠 Reflection
 
