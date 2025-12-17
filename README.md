@@ -33,3 +33,9 @@ In this exercise, I practiced building structured data using Python dictionaries
 ## Exercise 1.3 — Operators and Functions in Python
 
 In this exercise, I created a Python script (`Exercise_1.3.py`) that prompts the user to enter any number of recipes, stores them in a list of dictionaries, and collects a master list of unique ingredients. The program calculates each recipe’s difficulty level using conditional logic and prints the recipe details in an organized format. It also prints all ingredients alphabetically at the end. Full details and screenshots are in the [Exercise 1.3](Intro%20To%20Python/Exercise1.3/) folder.
+
+
+## Exercise 1.4 — File Handling in Python
+
+In this exercise, I expanded the recipe project by adding persistent file storage and search functionality. I created two Python scripts: one to collect and store recipes in a binary file using the `pickle` module, and another to load that data and allow users to search for recipes by ingredient. This exercise helped me understand how Python programs can save data across runs, handle file-related errors, and work with structured data across multiple scripts. Full details and screenshots are in the [Exercise 1.4](Intro%20To%20Python/Exercise1.4/) folder.
+
