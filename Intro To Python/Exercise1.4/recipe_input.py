@@ -99,14 +99,3 @@ with open(filename, "wb") as file:
     pickle.dump(data, file)
 
 print(f"\nSaved {n} recipe(s) to '{filename}'.")
-
-
-# Pseudocode for recipe_input.py
-# ---------------- Main Program ----------------
-# input = filename opened in binary read mode 
-#   try= open the file and load data using pickle
-#   data = pickle.load(file) containing {"recipes_list" and "all_ingredients"}
-#   except FileNotFoundError= print file not found message and create new data dictionary called data containing {"recipes_list" and "all_ingredients"}
-#   except Exception= print something went wrong message and create new data dictionary called data containing {"recipes_list" and "all_ingredients"}
-#   else= close the file
-#   finally= get recipes_list and all_ingredients from data dictionary or initialize as empty lists if not present
