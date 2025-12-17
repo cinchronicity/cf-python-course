@@ -14,7 +14,7 @@ The course is organized into sections, with each exercise having its own folder 
 ## 📋 Table of Contents — Introduction to Python
 
 - [Exercise 1.1 — Python Environment Setup](Intro%20To%20Python/Exercise1.1/) — Environment setup with virtualenvwrapper
-- [Exercise 1.2 — Working with Data Structures](Intro%20To%20Python/Exercise1.2/) — Dictionaries and lists with recipes
+- [Exercise 1.2 — Data Types in Python](Intro%20To%20Python/Exercise1.2/) — Dictionaries and lists with recipes
 - [Exercise 1.3 — Operators & Functions in Python](Intro%20To%20Python/Exercise1.3/) — User input, loops, and difficulty calculation
 - [Exercise 1.4 — File Handling in Python](Intro%20To%20Python/Exercise1.4/) — Reading/writing files and recipe search
 <!-- - [Exercise 1.4 — Exercise 1.4 Title](#exercise-14--exercise-14-title)
@@ -26,7 +26,7 @@ The course is organized into sections, with each exercise having its own folder 
 
 In this exercise, I installed Python using Homebrew, set up virtual environments with `virtualenvwrapper`, and practiced managing packages inside isolated environments. I installed useful tools like IPython, created a simple script (`add.py`), and learned how to export and reuse a requirements file. These steps established the workflow I will use throughout the course. Full details and screenshots are in the [Exercise 1.1](Intro%20To%20Python/Exercise1.1/) folder.
 
-## Exercise 1.2 — Working With Data Structures (Recipes)
+## Exercise 1.2 — Data Types in Python (Recipes)
 
 In this exercise, I practiced building structured data using Python dictionaries and lists. I created five recipe objects, stored them inside an outer list, and printed the ingredients for each recipe inside an IPython shell. I also explained why dictionaries are a good fit for recipe data and why a list works well for managing multiple recipes. Screenshots and full notes are included in the [Exercise 1.2](Intro%20To%20Python/Exercise1.2/) folder.
 
