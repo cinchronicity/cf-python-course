@@ -34,8 +34,10 @@ In this exercise, I practiced building structured data using Python dictionaries
 
 In this exercise, I created a Python script (`Exercise_1.3.py`) that prompts the user to enter any number of recipes, stores them in a list of dictionaries, and collects a master list of unique ingredients. The program calculates each recipe’s difficulty level using conditional logic and prints the recipe details in an organized format. It also prints all ingredients alphabetically at the end. Full details and screenshots are in the [Exercise 1.3](Intro%20To%20Python/Exercise1.3/) folder.
 
-
 ## Exercise 1.4 — File Handling in Python
 
 In this exercise, I expanded the recipe project by adding persistent file storage and search functionality. I created two Python scripts: one to collect and store recipes in a binary file using the `pickle` module, and another to load that data and allow users to search for recipes by ingredient. This exercise helped me understand how Python programs can save data across runs, handle file-related errors, and work with structured data across multiple scripts. Full details and screenshots are in the [Exercise 1.4](Intro%20To%20Python/Exercise1.4/) folder.
 
+## Exercise 1.5 — Object-Oriented Programming in Python (Recipes)
+
+In this exercise, I rebuilt the recipe application using object-oriented programming. I designed a `Recipe` class with attributes and methods to manage ingredients, calculate difficulty levels, and search recipes by ingredient. This exercise strengthened my understanding of classes, objects, instance vs class variables, and how OOP helps organize and scale Python programs more effectively. Full implementation details and screenshots are included in the [Exercise 1.5](Intro%20To%20Python/Exercise1.5/Exercise1.5-Task/) folder.
