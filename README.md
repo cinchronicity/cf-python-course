@@ -17,10 +17,9 @@ The course is organized into sections, with each exercise having its own folder 
 - [Exercise 1.2 — Data Types in Python](Intro%20To%20Python/Exercise1.2/) — Dictionaries and lists with recipes
 - [Exercise 1.3 — Operators & Functions in Python](Intro%20To%20Python/Exercise1.3/) — User input, loops, and difficulty calculation
 - [Exercise 1.4 — File Handling in Python](Intro%20To%20Python/Exercise1.4/) — Reading/writing files and recipe search
-<!-- - [Exercise 1.4 — Exercise 1.4 Title](#exercise-14--exercise-14-title)
-- [Exercise 1.5 — Exercise 1.5 Title](#exercise-15--exercise-15-title)
-- [Exercise 1.6 — Exercise 1.6 Title](#exercise-16--exercise-16-title)
-- [Exercise 1.7 — Exercise 1.7 Title](#exercise-17--exercise-17-title) -->
+- [Exercise 1.5 — Object-Oriented Programming in Python](#Intro%20To%20Python/Exercise1.5/)
+- [Exercise 1.6 — Databases in Python](#Intro%20To%20Python/Exercise1.6/)
+<!-- - [Exercise 1.7 — Exercise 1.7 Title](#exercise-17--exercise-17-title) --> -->
 
 ## Exercise 1.1 — Python Environment Setup
 
@@ -41,3 +40,8 @@ In this exercise, I expanded the recipe project by adding persistent file storag
 ## Exercise 1.5 — Object-Oriented Programming in Python (Recipes)
 
 In this exercise, I rebuilt the recipe application using object-oriented programming. I designed a `Recipe` class with attributes and methods to manage ingredients, calculate difficulty levels, and search recipes by ingredient. This exercise strengthened my understanding of classes, objects, instance vs class variables, and how OOP helps organize and scale Python programs more effectively. Full implementation details and screenshots are included in the [Exercise 1.5](Intro%20To%20Python/Exercise1.5/Exercise1.5-Task/) folder.
+
+## Exercise 1.6 — Databases in Python 
+
+In this exercise, I extended the recipe application by integrating a MySQL database to persist and manage recipe data. I built a menu-driven command-line program that connects Python to MySQL, creates the necessary database and table, and allows users to create, search, update, and delete recipes using SQL queries. Ingredients are stored in a normalized format to support reliable searching, and recipe difficulty is calculated dynamically based on cooking time and ingredient count. This exercise helped me understand how Python applications interact with relational databases, manage persistent data, and implement full CRUD functionality. Full details and screenshots are in the [Exercise 1.6](Intro%20To%20Python/Exercise1.6/) folder.
+
