@@ -19,7 +19,7 @@ The course is organized into sections, with each exercise having its own folder 
 - [Exercise 1.4 — File Handling in Python](Intro%20To%20Python/Exercise1.4/) — Reading/writing files and recipe search
 - [Exercise 1.5 — Object-Oriented Programming in Python](#Intro%20To%20Python/Exercise1.5/)
 - [Exercise 1.6 — Databases in Python](#Intro%20To%20Python/Exercise1.6/)
-<!-- - [Exercise 1.7 — Exercise 1.7 Title](#exercise-17--exercise-17-title) --> -->
+- [Exercise 1.7 — Object Relational Mapping in Python](#Intro%20To%20Python/Exercise1.7/) -->
 
 ## Exercise 1.1 — Python Environment Setup
 
@@ -45,3 +45,5 @@ In this exercise, I rebuilt the recipe application using object-oriented program
 
 In this exercise, I extended the recipe application by integrating a MySQL database to persist and manage recipe data. I built a menu-driven command-line program that connects Python to MySQL, creates the necessary database and table, and allows users to create, search, update, and delete recipes using SQL queries. Ingredients are stored in a normalized format to support reliable searching, and recipe difficulty is calculated dynamically based on cooking time and ingredient count. This exercise helped me understand how Python applications interact with relational databases, manage persistent data, and implement full CRUD functionality. Full details and screenshots are in the [Exercise 1.6](Intro%20To%20Python/Exercise1.6/) folder.
 
+### Exercise 1.7 — Object Relational Mapping in Python
+In this final exercise for Achievement 1, I rebuilt the recipe application using SQLAlchemy. Instead of writing raw SQL queries, I defined models, sessions, and ORM-based operations to interact with a MySQL database in a more scalable and maintainable way. Full details and screenshots are in the [Exercise 1.7](Intro%20To%20Python/Exercise1.7/) folder.
