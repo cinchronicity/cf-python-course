@@ -9,7 +9,7 @@ The course is organized into sections, with each exercise having its own folder 
 
 ### 🐍 [Intro To Python](Intro%20To%20Python/) (Exercises 1.1–1.7)
 
-### 🌐 [Web Development and Django](Web%20Development%20and%20Django/) (Coming Soon)
+### 🌐 [Web Development and Django](Web%20Development%20and%20Django/) (Exercises 2.1–2.2)
 
 ## 📋 Table of Contents — Introduction to Python
 
@@ -20,6 +20,11 @@ The course is organized into sections, with each exercise having its own folder 
 - [Exercise 1.5 — Object-Oriented Programming in Python](Intro%20To%20Python/Exercise1.5/) — User input, loops, and difficulty calculation
 - [Exercise 1.6 — Databases in Python](Intro%20To%20Python/Exercise1.6/) — MySQL integration and CRUD operations
 - [Exercise 1.7 — Object Relational Mapping in Python](Intro%20To%20Python/Exercise1.7/) — SQLAlchemy ORM implementation
+
+## 📋 Table of Contents — Web Development and Django
+
+- [Exercise 2.1 — Getting Started with Django](Web%20Development%20and%20Django/Exercise2.1/) — Django framework introduction and web development concepts
+- [Exercise 2.2 — Django Project Setup](Web%20Development%20and%20Django/Exercise2.2/) — Django project creation and virtual environment setup
 
 ## Exercise 1.1 — Python Environment Setup
 
@@ -48,3 +53,11 @@ In this exercise, I extended the recipe application by integrating a MySQL datab
 ### Exercise 1.7 — Object Relational Mapping in Python
 
 In this final exercise for Achievement 1, I rebuilt the recipe application using SQLAlchemy. Instead of writing raw SQL queries, I defined models, sessions, and ORM-based operations to interact with a MySQL database in a more scalable and maintainable way. Full details and screenshots are in the [Exercise 1.7](Intro%20To%20Python/Exercise1.7/) folder.
+
+## Exercise 2.1 — Getting Started with Django
+
+In this exercise, I explored the fundamentals of web development and the Django framework. I learned about key concepts including HTTP requests/responses, the Model-View-Template (MVT) architecture, and how Django differs from other web frameworks. This theoretical foundation prepared me for hands-on Django development by understanding how web applications work and why Django's structure is designed the way it is. Full details and learning journal are in the [Exercise 2.1](Web%20Development%20and%20Django/Exercise2.1/) folder.
+
+## Exercise 2.2 — Django Project Setup
+
+In this exercise, I set up my development environment for Django and created my first Django project. I installed Django in a new virtual environment (`a2-ve-recipeapp`), created a Django project called `recipe_project` within the A2_Recipe_App folder, and renamed the project directory to `src` following best practices. I successfully ran initial migrations to set up the database and started the Django development server to see the default welcome page. This hands-on exercise established the foundation for building recipe applications with Django. Full details and screenshots are in the [Exercise 2.2](Web%20Development%20and%20Django/Exercise2.2/) folder.
